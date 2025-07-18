@@ -2,7 +2,7 @@
 
 ## 🚀 Live Demo
 
-🔗 [View Portfolio Live](https:vercel.app/)
+🔗 [View Portfolio Live](https://my-portfolio-eta-two-54.vercel.app/)
 
 ## 🛠️ Tech Stack
 
@@ -24,7 +24,7 @@
 ### 1. Clone the Repo
 
 ```bash
-git clone []
+git clone [https://github.com/shahil-07/MyPortfolio.git]
 cd your-repo-name
 ````
 
