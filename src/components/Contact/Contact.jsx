@@ -7,15 +7,20 @@ const Contact = () => {
   const form = useRef();
   const [isSent, setIsSent] = useState(false);
 
+  // Load ENV variables
+  const SERVICE_ID = import.meta.env.VITE_EJS_SERVICE_ID;
+  const TEMPLATE_ID = import.meta.env.VITE_EJS_TEMPLATE_ID;
+  const PUBLIC_KEY = import.meta.env.VITE_EJS_PUBLIC_KEY;
+
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_dx7ez9k",  // EJS Service ID
-        "template_nacbngv",  // EjsTemplate ID
+        SERVICE_ID,  // EJS Service ID
+        TEMPLATE_ID,   // EjsTemplate ID
         form.current,
-        "LtHPESnCW_wimLSfo"  // EJS Public Key
+        PUBLIC_KEY  // EJS Public Key
       )
       .then(
         () => {
