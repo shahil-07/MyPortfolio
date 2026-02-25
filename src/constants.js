@@ -54,6 +54,8 @@ import textutilsLogo from './assets/work_logo/textutils.png';
 import excelmapperLogo from './assets/work_logo/excelmapper.png';
 import grocoLogo from './assets/work_logo/groco.png';
 import newshubLogo from './assets/work_logo/newshub.png';
+import thumbejaLogo from './assets/work_logo/thumbejaLogo.png';
+import zyfoxLogo from './assets/work_logo/zyfoxLogo.png';
 // import tictactoeLogo from './assets/work_logo/tictactoe.png';
 
 
@@ -66,11 +68,12 @@ export const SkillsInfo = [
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
       // { name: 'Redux', logo: reduxLogo },
-      // { name: 'Next JS', logo: nextjsLogo },
-      { name: 'Electron JS', logo: electronLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
+      { name: 'Tailwind CSS', logo: tailwindcssLogo },
+      { name: 'Next JS', logo: nextjsLogo },
+      { name: 'TypeScript', logo: typescriptLogo },
+      { name: 'Electron JS', logo: electronLogo },
+      { name: 'Material UI', logo: materialuiLogo },
     ],
   },
   {
@@ -78,6 +81,9 @@ export const SkillsInfo = [
     skills: [
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'MySQL', logo: mysqlLogo },
+      { name: 'Firebase', logo: firebaseLogo },
+      { name: 'Express JS', logo: expressjsLogo },
+      { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Xxamp', logo: xxampLogo },
       { name: 'PHP', logo: phpLogo },
       { name: 'PostgreSQL', logo: postgreLogo },
@@ -100,7 +106,7 @@ export const SkillsInfo = [
       { name: 'GitLab', logo: gitlabLogo },
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Postman', logo: postmanLogo },
-      // { name: 'Compass', logo: mcLogo },
+      { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
       { name: 'Figma', logo: figmaLogo },
@@ -206,6 +212,24 @@ export const projects = [
   },
   {
     id: 1,
+    title: "Thumbeja Publicity Website",
+    description:
+      "Engineered a responsive and performance-optimized website for a digital marketing agency using a structured and scalable architecture, implementing dynamic components, optimized asset loading, and SEO improvements through semantic markup and meta configurations while integrating secure contact handling and ensuring cross-browser compatibility with mobile-first design principles.",
+    image: thumbejaLogo,
+    tags: ["React + Vite", "Tailwind CSS", "React Router", "HTML", "CSS", "JavaScript"],
+    webapp: "https://thumbeja.com/",
+  },
+  {
+    id: 2,
+    title: "Zyfox Design Studio Website",
+    description:
+      "Developed an immersive and visually dynamic website for Zyfox, a 3D and VFX design studio, integrating Three.js to create interactive 3D elements and cinematic animations. Crafted a modern, animation-driven UI using React and Tailwind to reflect the brand’s premium and global creative identity. Optimized rendering performance, smooth transitions, and asset loading for seamless user interaction. Ensured full responsiveness and cross-device consistency while maintaining high visual quality and scalability.",
+    image: zyfoxLogo,
+    tags: ["Next.js", "TypeScript", "Three.js", "Tailwind CSS", "HTML", "CSS", "JavaScript"],
+    webapp: "https://zyfox.in/",
+  },
+  {
+    id: 3,
     title: "Newshub",
     description:
       "Newshub is a news aggregator website that provides users with a curated selection of articles from various sources, ensuring a diverse and up-to-date collection of news content.",
@@ -215,7 +239,7 @@ export const projects = [
     webapp: "https://newshub-react-seven.vercel.app/",
   },
   {
-    id: 2,
+    id: 4,
     title: "Textutils",
     description:
       "Textutils gives you a way to analyze your text quickly and efficiently. Be it word count, character count. Experience seamless text manipulation directly in your browser, eliminating the need for additional software installations. Textutils ensures compatibility across various browsers, offering a consistent and user-friendly experience for all users.",
@@ -225,7 +249,7 @@ export const projects = [
     webapp: "https://textutils-websites.netlify.app/",
   },
   {
-    id: 3,
+    id: 5,
     title: "Excel Mapper App",
     description:
       "Automated data mapping with xlwings and Python for accurate Excel template transfers based on predefined rules. Developed a user-friendly interface with Electron, React, and Node.js to optimize data upload and mapping efficiency.",
@@ -234,7 +258,7 @@ export const projects = [
     github: "https://github.com/shahil-07/Excel_mapper-Electron-react.git",
   },
   {
-    id: 4,
+    id: 6,
     title: "Groco Website",
     description:
       "Groco is an online platform for ordering groceries and food items, offering a user-friendly interface for browsing and purchasing essentials.",
@@ -244,7 +268,7 @@ export const projects = [
     webapp: "https://groco-website.vercel.app/",
   },
   {
-    id: 5,
+    id: 7,
     title: "Image Search App",
     description:
       "A image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
