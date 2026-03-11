@@ -56,6 +56,7 @@ import grocoLogo from './assets/work_logo/groco.png';
 import newshubLogo from './assets/work_logo/newshub.png';
 import thumbejaLogo from './assets/work_logo/thumbejaLogo.png';
 import zyfoxLogo from './assets/work_logo/zyfoxLogo.png';
+import airesumeLogo from './assets/work_logo/airesumeLogo.png';
 // import tictactoeLogo from './assets/work_logo/tictactoe.png';
 
 
@@ -230,6 +231,16 @@ export const projects = [
   },
   {
     id: 3,
+    title: "AI Resume Analyzer & ATS Scorer",
+    description:
+      "Developed an AI-powered resume analysis platform using LLM and Generative AI to evaluate resumes against job descriptions and calculate ATS compatibility scores. Implemented intelligent skill gap detection and personalized improvement suggestions to help job seekers optimize their resumes for better hiring outcomes.",
+    image: airesumeLogo,
+    tags: ["React", "Node.js", "Python", "FastAPI", "spaCy", "scikit-learn"],
+    github: "https://github.com/shahil-07/Ai-Resume-Analyzer",
+    webapp: "https://ai-resume-analyz.up.railway.app/analyzer",
+  },
+  {
+    id: 4,
     title: "Newshub",
     description:
       "Newshub is a news aggregator website that provides users with a curated selection of articles from various sources, ensuring a diverse and up-to-date collection of news content.",
@@ -239,7 +250,7 @@ export const projects = [
     webapp: "https://newshub-react-seven.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Textutils",
     description:
       "Textutils gives you a way to analyze your text quickly and efficiently. Be it word count, character count. Experience seamless text manipulation directly in your browser, eliminating the need for additional software installations. Textutils ensures compatibility across various browsers, offering a consistent and user-friendly experience for all users.",
@@ -249,7 +260,7 @@ export const projects = [
     webapp: "https://textutils-websites.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Excel Mapper App",
     description:
       "Automated data mapping with xlwings and Python for accurate Excel template transfers based on predefined rules. Developed a user-friendly interface with Electron, React, and Node.js to optimize data upload and mapping efficiency.",
@@ -258,7 +269,7 @@ export const projects = [
     github: "https://github.com/shahil-07/Excel_mapper-Electron-react.git",
   },
   {
-    id: 6,
+    id: 7,
     title: "Groco Website",
     description:
       "Groco is an online platform for ordering groceries and food items, offering a user-friendly interface for browsing and purchasing essentials.",
@@ -268,7 +279,7 @@ export const projects = [
     webapp: "https://groco-website.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Image Search App",
     description:
       "A image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
